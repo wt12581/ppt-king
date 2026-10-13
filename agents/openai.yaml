@@ -1,0 +1,4 @@
+interface:
+  display_name: "PPT King"
+  short_description: "根据文档与参考图生成完整设计，再从空白重建轻量可编辑PPT"
+  default_prompt: "使用 $ppt-king 根据文档与选定参考图生成完整设计，再从空白制作轻量可编辑PPT，检查实际渲染、编辑能力与性能。"

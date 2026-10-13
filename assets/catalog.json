@@ -1,0 +1,784 @@
+{
+  "schema_version": 1,
+  "styles": [
+    {
+      "id": "academic-blue",
+      "name": "蓝白科研",
+      "type": "image-reference",
+      "description": "白底、深蓝标题、浅蓝渐变、红色重点，带波浪和立体特征块；适合方法与架构汇报。",
+      "brief": "assets/styles/academic-blue/brief.md",
+      "images": [
+        {
+          "file": "assets/styles/academic-blue/slide-01.png",
+          "role": "cover",
+          "source_slide": 1
+        },
+        {
+          "file": "assets/styles/academic-blue/slide-03.png",
+          "role": "research-background",
+          "source_slide": 3
+        },
+        {
+          "file": "assets/styles/academic-blue/slide-08.png",
+          "role": "dual-task-architecture",
+          "source_slide": 8
+        },
+        {
+          "file": "assets/styles/academic-blue/slide-13.png",
+          "role": "dense-network-architecture",
+          "source_slide": 13
+        },
+        {
+          "file": "assets/styles/academic-blue/slide-18.png",
+          "role": "image-and-table",
+          "source_slide": 18
+        },
+        {
+          "file": "assets/styles/academic-blue/slide-24.png",
+          "role": "summary",
+          "source_slide": 24
+        }
+      ],
+      "tags": [
+        "academic"
+      ],
+      "files": {
+        "assets/styles/academic-blue/brief.md": "47393f69d9cf75b403c44939ee12960aa62bce5fc02dfc404b2521bd24245019",
+        "assets/styles/academic-blue/slide-01.png": "c70018745968f46eb126a7b0805b7e6f3ba355e01c52372549a03c0e768107f2",
+        "assets/styles/academic-blue/slide-03.png": "256c06d2da188251e9ff6eb990fa9c7f931b9ba8fa0d620f3e59501d8cf145cb",
+        "assets/styles/academic-blue/slide-08.png": "8bc7a7bae796a34b8decb9325cd8bf258cb4538227432f5596f550df30a68a90",
+        "assets/styles/academic-blue/slide-13.png": "7f341673fecc81dbd495122d59494fdaa45312490154625744a24fcf650af6c7",
+        "assets/styles/academic-blue/slide-18.png": "33b9d3f7b1e8bc779185afb18bee4f95bae0a20c8396504ae5fd62a080dcbfdc",
+        "assets/styles/academic-blue/slide-24.png": "6e367b879ad0502a37f13ddf7357869e36046fc44f5415d12ce543b100aaf973",
+        "assets/styles/academic-blue/reference.pptx": "16f28f4940a982a3938c075e9aa59cad0e2fc39c2d89827bd23f39a1949eae5e"
+      },
+      "reference_pptx": "assets/styles/academic-blue/reference.pptx",
+      "provenance": "PowerPoint-rendered reference; source preserved with user authorization"
+    },
+    {
+      "id": "academic-minimal",
+      "name": "极简学术",
+      "type": "prompt-direction",
+      "description": "浅色背景、克制配色、清晰文字层次与充分留白；只有文字方向，尚无已认可参考图。",
+      "brief": "assets/styles/academic-minimal/brief.md",
+      "images": [],
+      "tags": [
+        "academic"
+      ],
+      "files": {
+        "assets/styles/academic-minimal/brief.md": "bd8cd970974a2ec37a6735e15c4c1f02ffdc1b3deb7055c0a4ab272eeb8a022b"
+      }
+    },
+    {
+      "id": "dark-tech",
+      "name": "深色科技",
+      "type": "prompt-direction",
+      "description": "深色画布、少量亮色强调和清楚的技术结构；只有文字方向，尚无已认可参考图。",
+      "brief": "assets/styles/dark-tech/brief.md",
+      "images": [],
+      "tags": [
+        "presentation"
+      ],
+      "files": {
+        "assets/styles/dark-tech/brief.md": "ba88ee221f3cd59d913c5c5dcb2aa8c9ee2b834493f32f3625e61f73e019ffc2"
+      }
+    },
+    {
+      "id": "editorial-light",
+      "name": "浅色图文",
+      "type": "prompt-direction",
+      "description": "浅色画布、大图与分栏、较少边框，突出图文阅读；只有文字方向，尚无已认可参考图。",
+      "brief": "assets/styles/editorial-light/brief.md",
+      "images": [],
+      "tags": [
+        "presentation"
+      ],
+      "files": {
+        "assets/styles/editorial-light/brief.md": "6beb1c49af024e35a9b591aeada7c854b51fd4a4d6ef7b5623cf65d826974bd0"
+      }
+    }
+  ],
+  "components": [
+    {
+      "id": "layered-cover-wave",
+      "name": "封面叠层波浪",
+      "category": "decoration",
+      "tags": [
+        "波浪",
+        "封面",
+        "背景"
+      ],
+      "description": "两个独立原生曲面，可改颜色与叠放；示例蓝色可覆盖。",
+      "native_only": true,
+      "counts": {
+        "slides": 1,
+        "pictures": 0,
+        "textboxes": 0,
+        "groups": 1,
+        "freeforms": 2,
+        "attached_connectors": 0
+      },
+      "pptx": "assets/components/layered-cover-wave/component.pptx",
+      "preview": "assets/components/layered-cover-wave/preview.png",
+      "parameters": [
+        "position",
+        "size",
+        "color",
+        "text if present"
+      ],
+      "provenance": {
+        "source": "DR-DKD final editable deck",
+        "slide": 1,
+        "shape_names": [
+          "wave_deep",
+          "wave_bright"
+        ]
+      },
+      "files": {
+        "assets/components/layered-cover-wave/component.pptx": "b857ebcb20710fa03979967d90e7c1cc0be1a7628e82e2bc86f6df86b7e85a66",
+        "assets/components/layered-cover-wave/preview.png": "3288f73f841cdc4c0edb7482b762314fa6bd9ceae077c9127615ce9e603de112"
+      }
+    },
+    {
+      "id": "layered-footer-wave",
+      "name": "页底叠层波浪",
+      "category": "decoration",
+      "tags": [
+        "波浪",
+        "页脚",
+        "背景"
+      ],
+      "description": "紧凑波浪装饰，与正文文字分离。",
+      "native_only": true,
+      "counts": {
+        "slides": 1,
+        "pictures": 0,
+        "textboxes": 0,
+        "groups": 1,
+        "freeforms": 2,
+        "attached_connectors": 0
+      },
+      "pptx": "assets/components/layered-footer-wave/component.pptx",
+      "preview": "assets/components/layered-footer-wave/preview.png",
+      "parameters": [
+        "position",
+        "size",
+        "color",
+        "text if present"
+      ],
+      "provenance": {
+        "source": "DR-DKD final editable deck",
+        "slide": 2,
+        "shape_names": [
+          "wave_deep",
+          "wave_bright"
+        ]
+      },
+      "files": {
+        "assets/components/layered-footer-wave/component.pptx": "8bb372b5ec455350f18d22ac08e79214d956be44ea130004f25019ec803ae85f",
+        "assets/components/layered-footer-wave/preview.png": "067cb51ecd6a94dad6bf939c22fd80c6b71f4f70fdc5fcab6bebb32542bd9f6b"
+      }
+    },
+    {
+      "id": "conclusion-band",
+      "name": "渐变结论横条",
+      "category": "decoration",
+      "tags": [
+        "横条",
+        "结论",
+        "装饰"
+      ],
+      "description": "原生渐变底板、独立文本框与目标图标。",
+      "native_only": true,
+      "counts": {
+        "slides": 1,
+        "pictures": 0,
+        "textboxes": 1,
+        "groups": 2,
+        "freeforms": 1,
+        "attached_connectors": 0
+      },
+      "pptx": "assets/components/conclusion-band/component.pptx",
+      "preview": "assets/components/conclusion-band/preview.png",
+      "parameters": [
+        "position",
+        "size",
+        "color",
+        "text if present"
+      ],
+      "provenance": {
+        "source": "DR-DKD final editable deck",
+        "slide": 19,
+        "shape_names": [
+          "summary_bg",
+          "summary_text",
+          "icon_summary_icon",
+          "summary_divider"
+        ]
+      },
+      "files": {
+        "assets/components/conclusion-band/component.pptx": "feaa4c6a848c344cc01ca9b49320de503b29457b8a2de78dbe694893645e86a4",
+        "assets/components/conclusion-band/preview.png": "4e603bed1846281b1c5b12c744af757bc954bffd19d0b6b7c45168fb467d5d42"
+      }
+    },
+    {
+      "id": "chevron-title-band",
+      "name": "箭头标题横条",
+      "category": "decoration",
+      "tags": [
+        "标题",
+        "横条"
+      ],
+      "description": "标题装饰轮廓与文字是独立子对象。",
+      "native_only": true,
+      "counts": {
+        "slides": 1,
+        "pictures": 0,
+        "textboxes": 1,
+        "groups": 1,
+        "freeforms": 1,
+        "attached_connectors": 0
+      },
+      "pptx": "assets/components/chevron-title-band/component.pptx",
+      "preview": "assets/components/chevron-title-band/preview.png",
+      "parameters": [
+        "position",
+        "size",
+        "color",
+        "text if present"
+      ],
+      "provenance": {
+        "source": "DR-DKD final editable deck",
+        "slide": 20,
+        "shape_names": [
+          "summary_label_bg",
+          "summary_label_text"
+        ]
+      },
+      "files": {
+        "assets/components/chevron-title-band/component.pptx": "c91e528799432d5acf518807dd38c082ffdca0d561d41ed7fe5cb1eec36a1785",
+        "assets/components/chevron-title-band/preview.png": "7ee53ebb66ed11f980869ecd0f6580f772a9d6874f26c5832fe02af9d9e0242a"
+      }
+    },
+    {
+      "id": "feature-stack",
+      "name": "多层立体特征堆叠",
+      "category": "feature",
+      "tags": [
+        "特征",
+        "堆叠",
+        "立体"
+      ],
+      "description": "原生三面立体块组合，可取消组合调整层数、尺寸与颜色。",
+      "native_only": true,
+      "counts": {
+        "slides": 1,
+        "pictures": 0,
+        "textboxes": 0,
+        "groups": 4,
+        "freeforms": 6,
+        "attached_connectors": 0
+      },
+      "pptx": "assets/components/feature-stack/component.pptx",
+      "preview": "assets/components/feature-stack/preview.png",
+      "parameters": [
+        "position",
+        "size",
+        "color",
+        "text if present"
+      ],
+      "provenance": {
+        "source": "DR-DKD final editable deck",
+        "slide": 13,
+        "shape_names": [
+          "module_full_res_2",
+          "module_full_res_1",
+          "module_full_res_0"
+        ]
+      },
+      "files": {
+        "assets/components/feature-stack/component.pptx": "63a23fce165dce45388db37196928654eb3d5ee541747966dc7cb9b52bebcade",
+        "assets/components/feature-stack/preview.png": "e2ef0812ecd7a7ced9cdf18f142a04a8942edf272e7c94ba9869b7abf525df55"
+      }
+    },
+    {
+      "id": "feature-pyramid-sequence",
+      "name": "多尺度立体特征序列",
+      "category": "feature",
+      "tags": [
+        "特征",
+        "多尺度",
+        "立体",
+        "序列"
+      ],
+      "description": "七个独立三面块的大小序列，不预设网络关系，不包含箭头或模型名。",
+      "native_only": true,
+      "counts": {
+        "slides": 1,
+        "pictures": 0,
+        "textboxes": 0,
+        "groups": 8,
+        "freeforms": 14,
+        "attached_connectors": 0
+      },
+      "pptx": "assets/components/feature-pyramid-sequence/component.pptx",
+      "preview": "assets/components/feature-pyramid-sequence/preview.png",
+      "parameters": [
+        "position",
+        "size",
+        "color",
+        "text if present"
+      ],
+      "provenance": {
+        "source": "DR-DKD final editable deck",
+        "slide": 24,
+        "shape_names": [
+          "module_priority_mininet_0",
+          "module_priority_mininet_1",
+          "module_priority_mininet_2",
+          "module_priority_mininet_3",
+          "module_priority_mininet_4",
+          "module_priority_mininet_5",
+          "module_priority_mininet_6"
+        ]
+      },
+      "files": {
+        "assets/components/feature-pyramid-sequence/component.pptx": "c6515ea4225041f15b96e9f668240bbcc4a1d2a475afe73a0ed1f31202b185c6",
+        "assets/components/feature-pyramid-sequence/preview.png": "1467f94b11b7981474c3ed07e4cc4970224c724504f6dc36b57a9250db8822da"
+      }
+    },
+    {
+      "id": "eye",
+      "name": "眼睛",
+      "category": "icon",
+      "tags": [
+        "眼睛",
+        "原生",
+        "图标"
+      ],
+      "description": "原生形状组合，可取消组合编辑轮廓；颜色可更换。",
+      "native_only": true,
+      "counts": {
+        "slides": 1,
+        "pictures": 0,
+        "textboxes": 0,
+        "groups": 1,
+        "freeforms": 1,
+        "attached_connectors": 0
+      },
+      "pptx": "assets/components/eye/component.pptx",
+      "preview": "assets/components/eye/preview.png",
+      "parameters": [
+        "position",
+        "size",
+        "color",
+        "text if present"
+      ],
+      "provenance": {
+        "source": "DR-DKD final editable deck",
+        "slide": 3,
+        "shape_names": [
+          "icon_dr_eye"
+        ]
+      },
+      "files": {
+        "assets/components/eye/component.pptx": "9627d34ab919aa91e6305d8cd61b479c9fd2028bc818fa40d985b0b99d041678",
+        "assets/components/eye/preview.png": "4a2cc8bf9d58d224d5c37904bc5384bd21fbf2e0f1169155c0128e43ed8cc1a2"
+      }
+    },
+    {
+      "id": "kidney",
+      "name": "肾脏轮廓",
+      "category": "icon",
+      "tags": [
+        "肾脏轮廓",
+        "原生",
+        "图标"
+      ],
+      "description": "原生形状组合，可取消组合编辑轮廓；颜色可更换。",
+      "native_only": true,
+      "counts": {
+        "slides": 1,
+        "pictures": 0,
+        "textboxes": 0,
+        "groups": 1,
+        "freeforms": 2,
+        "attached_connectors": 0
+      },
+      "pptx": "assets/components/kidney/component.pptx",
+      "preview": "assets/components/kidney/preview.png",
+      "parameters": [
+        "position",
+        "size",
+        "color",
+        "text if present"
+      ],
+      "provenance": {
+        "source": "DR-DKD final editable deck",
+        "slide": 3,
+        "shape_names": [
+          "icon_dkd_kidney"
+        ]
+      },
+      "files": {
+        "assets/components/kidney/component.pptx": "2477cf2c6b182a6627429cd9df82bb7b61b7337399be0cc14c27ce1bd9ce0ff3",
+        "assets/components/kidney/preview.png": "0279447c300653829399c9795cef81455bf512e9b3bc62b74fd1865cc5ba5e7f"
+      }
+    },
+    {
+      "id": "document",
+      "name": "文件",
+      "category": "icon",
+      "tags": [
+        "文件",
+        "原生",
+        "图标"
+      ],
+      "description": "原生形状组合，可取消组合编辑轮廓；颜色可更换。 白色原生图标，适合深色背景，也可改色；预览底色不随组件复制。",
+      "native_only": true,
+      "counts": {
+        "slides": 1,
+        "pictures": 0,
+        "textboxes": 0,
+        "groups": 1,
+        "freeforms": 1,
+        "attached_connectors": 0
+      },
+      "pptx": "assets/components/document/component.pptx",
+      "preview": "assets/components/document/preview.png",
+      "parameters": [
+        "position",
+        "size",
+        "color",
+        "text if present"
+      ],
+      "provenance": {
+        "source": "DR-DKD final editable deck",
+        "slide": 19,
+        "shape_names": [
+          "icon_select_icon_0"
+        ]
+      },
+      "files": {
+        "assets/components/document/component.pptx": "7d5d299837c06539742a06bfe9fa99f2100e7715e7d914bfc75e06c56850435b",
+        "assets/components/document/preview.png": "99530a7056e7cbc813f7b8b265e2a844bcfb72b78c8424900764a329aaff9702"
+      },
+      "preview_background_only": true
+    },
+    {
+      "id": "magnifier",
+      "name": "放大镜",
+      "category": "icon",
+      "tags": [
+        "放大镜",
+        "原生",
+        "图标"
+      ],
+      "description": "原生形状组合，可取消组合编辑轮廓；颜色可更换。 白色原生图标，适合深色背景，也可改色；预览底色不随组件复制。",
+      "native_only": true,
+      "counts": {
+        "slides": 1,
+        "pictures": 0,
+        "textboxes": 0,
+        "groups": 1,
+        "freeforms": 0,
+        "attached_connectors": 0
+      },
+      "pptx": "assets/components/magnifier/component.pptx",
+      "preview": "assets/components/magnifier/preview.png",
+      "parameters": [
+        "position",
+        "size",
+        "color",
+        "text if present"
+      ],
+      "provenance": {
+        "source": "DR-DKD final editable deck",
+        "slide": 19,
+        "shape_names": [
+          "icon_select_icon_1"
+        ]
+      },
+      "files": {
+        "assets/components/magnifier/component.pptx": "d5dc400eddbd6c5d33c2f4d5225da6a0984e1cde8e768ca87f6f8910df42b6cb",
+        "assets/components/magnifier/preview.png": "cf144f3b16abc1fbaafe378439afc5366d947f228f0c23a400aa397828dcd475"
+      },
+      "preview_background_only": true
+    },
+    {
+      "id": "bar-chart",
+      "name": "柱状图图标",
+      "category": "icon",
+      "tags": [
+        "柱状图图标",
+        "原生",
+        "图标"
+      ],
+      "description": "原生形状组合，可取消组合编辑轮廓；颜色可更换。 白色原生图标，适合深色背景，也可改色；预览底色不随组件复制。",
+      "native_only": true,
+      "counts": {
+        "slides": 1,
+        "pictures": 0,
+        "textboxes": 0,
+        "groups": 1,
+        "freeforms": 0,
+        "attached_connectors": 0
+      },
+      "pptx": "assets/components/bar-chart/component.pptx",
+      "preview": "assets/components/bar-chart/preview.png",
+      "parameters": [
+        "position",
+        "size",
+        "color",
+        "text if present"
+      ],
+      "provenance": {
+        "source": "DR-DKD final editable deck",
+        "slide": 19,
+        "shape_names": [
+          "icon_select_icon_2"
+        ]
+      },
+      "files": {
+        "assets/components/bar-chart/component.pptx": "468488983e76b2fb3420c99cea67e52f864bdacc110ecc2daf5d718a84301513",
+        "assets/components/bar-chart/preview.png": "21bd419e3593e780692bf086a43e6dec929c048925986ac7dadc3555a8edfe56"
+      },
+      "preview_background_only": true
+    },
+    {
+      "id": "gear",
+      "name": "齿轮",
+      "category": "icon",
+      "tags": [
+        "齿轮",
+        "原生",
+        "图标"
+      ],
+      "description": "原生形状组合，可取消组合编辑轮廓；颜色可更换。",
+      "native_only": true,
+      "counts": {
+        "slides": 1,
+        "pictures": 0,
+        "textboxes": 0,
+        "groups": 1,
+        "freeforms": 1,
+        "attached_connectors": 0
+      },
+      "pptx": "assets/components/gear/component.pptx",
+      "preview": "assets/components/gear/preview.png",
+      "parameters": [
+        "position",
+        "size",
+        "color",
+        "text if present"
+      ],
+      "provenance": {
+        "source": "DR-DKD final editable deck",
+        "slide": 15,
+        "shape_names": [
+          "icon_train_gear"
+        ]
+      },
+      "files": {
+        "assets/components/gear/component.pptx": "a21d8fabdd568ad864ba16b470d674e046a0dc000c443d6dc5bda5ce99df7379",
+        "assets/components/gear/preview.png": "31ef87b01df686d03398c49e92527a441e7a8b7614d298f900507f7043e7c43a"
+      }
+    },
+    {
+      "id": "database",
+      "name": "数据库",
+      "category": "icon",
+      "tags": [
+        "数据库",
+        "原生",
+        "图标"
+      ],
+      "description": "原生形状组合，可取消组合编辑轮廓；颜色可更换。",
+      "native_only": true,
+      "counts": {
+        "slides": 1,
+        "pictures": 0,
+        "textboxes": 0,
+        "groups": 1,
+        "freeforms": 2,
+        "attached_connectors": 0
+      },
+      "pptx": "assets/components/database/component.pptx",
+      "preview": "assets/components/database/preview.png",
+      "parameters": [
+        "position",
+        "size",
+        "color",
+        "text if present"
+      ],
+      "provenance": {
+        "source": "DR-DKD final editable deck",
+        "slide": 6,
+        "shape_names": [
+          "icon_database_icon"
+        ]
+      },
+      "files": {
+        "assets/components/database/component.pptx": "322c7b709036f6593722fc310750e1141c4129b0614e3071331212ca40b90fdf",
+        "assets/components/database/preview.png": "bde7f50a151422e86d3ee7541246d1bf8be8973108dbd99ab5e4ee04015b6956"
+      }
+    },
+    {
+      "id": "lightbulb",
+      "name": "灯泡",
+      "category": "icon",
+      "tags": [
+        "灯泡",
+        "原生",
+        "图标"
+      ],
+      "description": "原生形状组合，可取消组合编辑轮廓；颜色可更换。",
+      "native_only": true,
+      "counts": {
+        "slides": 1,
+        "pictures": 0,
+        "textboxes": 0,
+        "groups": 1,
+        "freeforms": 1,
+        "attached_connectors": 0
+      },
+      "pptx": "assets/components/lightbulb/component.pptx",
+      "preview": "assets/components/lightbulb/preview.png",
+      "parameters": [
+        "position",
+        "size",
+        "color",
+        "text if present"
+      ],
+      "provenance": {
+        "source": "DR-DKD final editable deck",
+        "slide": 15,
+        "shape_names": [
+          "icon_vessel_bulb"
+        ]
+      },
+      "files": {
+        "assets/components/lightbulb/component.pptx": "90c42697610b8c8f965e66662d670fe337798f021d4d5de95e14586a7c414162",
+        "assets/components/lightbulb/preview.png": "242a813cd9ef9e757517b3706f65e4238b42b59a1c27681d5f57bb7961818af2"
+      }
+    },
+    {
+      "id": "analysis-report",
+      "name": "分析报告",
+      "category": "icon",
+      "tags": [
+        "分析报告",
+        "原生",
+        "图标"
+      ],
+      "description": "原生形状组合，可取消组合编辑轮廓；颜色可更换。",
+      "native_only": true,
+      "counts": {
+        "slides": 1,
+        "pictures": 0,
+        "textboxes": 0,
+        "groups": 1,
+        "freeforms": 0,
+        "attached_connectors": 0
+      },
+      "pptx": "assets/components/analysis-report/component.pptx",
+      "preview": "assets/components/analysis-report/preview.png",
+      "parameters": [
+        "position",
+        "size",
+        "color",
+        "text if present"
+      ],
+      "provenance": {
+        "source": "DR-DKD final editable deck",
+        "slide": 24,
+        "shape_names": [
+          "icon_priority_analysis_report"
+        ]
+      },
+      "files": {
+        "assets/components/analysis-report/component.pptx": "9531a5efbd240c33d6c46a9ab2a63e026f14bb3507518bc6420c14156242001b",
+        "assets/components/analysis-report/preview.png": "50bf0bef1bdd05a23a96d8226ad22cc35ccb2402e60e4a34413e196f40389108"
+      }
+    },
+    {
+      "id": "image-symbol",
+      "name": "图像图标",
+      "category": "icon",
+      "tags": [
+        "图像图标",
+        "原生",
+        "图标"
+      ],
+      "description": "原生形状组合，可取消组合编辑轮廓；颜色可更换。 白色原生图标，适合深色背景，也可改色；预览底色不随组件复制。",
+      "native_only": true,
+      "counts": {
+        "slides": 1,
+        "pictures": 0,
+        "textboxes": 0,
+        "groups": 1,
+        "freeforms": 1,
+        "attached_connectors": 0
+      },
+      "pptx": "assets/components/image-symbol/component.pptx",
+      "preview": "assets/components/image-symbol/preview.png",
+      "parameters": [
+        "position",
+        "size",
+        "color",
+        "text if present"
+      ],
+      "provenance": {
+        "source": "DR-DKD final editable deck",
+        "slide": 24,
+        "shape_names": [
+          "icon_deliverable_icon_0"
+        ]
+      },
+      "files": {
+        "assets/components/image-symbol/component.pptx": "25608f23be9408b6730dc1b728dda5bd5615921cac096d62193a1d188d93cd3d",
+        "assets/components/image-symbol/preview.png": "92cbb76e0d89e335eae48d14285ec7e49a66df98d909d434c1d55b2d074916f1"
+      },
+      "preview_background_only": true
+    },
+    {
+      "id": "analysis-monitor",
+      "name": "分析显示器",
+      "category": "icon",
+      "tags": [
+        "分析显示器",
+        "原生",
+        "图标"
+      ],
+      "description": "原生形状组合，可取消组合编辑轮廓；颜色可更换。",
+      "native_only": true,
+      "counts": {
+        "slides": 1,
+        "pictures": 0,
+        "textboxes": 0,
+        "groups": 1,
+        "freeforms": 0,
+        "attached_connectors": 0
+      },
+      "pptx": "assets/components/analysis-monitor/component.pptx",
+      "preview": "assets/components/analysis-monitor/preview.png",
+      "parameters": [
+        "position",
+        "size",
+        "color",
+        "text if present"
+      ],
+      "provenance": {
+        "source": "DR-DKD final editable deck",
+        "slide": 23,
+        "shape_names": [
+          "icon_analysis_monitor"
+        ]
+      },
+      "files": {
+        "assets/components/analysis-monitor/component.pptx": "af59632cb1a0eaf976ba2f0e395c8de34696523e6556bcf9ea3e0eac5482a7f9",
+        "assets/components/analysis-monitor/preview.png": "864b7c1e80199c71614bbd34b378440972d7cbc58c2aed3bbf56148dd13aa049"
+      }
+    }
+  ]
+}
